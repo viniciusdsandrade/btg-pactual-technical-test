@@ -15,9 +15,3 @@ data class OrderDocument(
     val valorTotal: BigDecimal,
     val criadoEm: Instant
 )
-
-data class OrderItem(
-    val produto: String,
-    val quantidade: Int,
-    val preco: BigDecimal
-)
